@@ -4,7 +4,7 @@
 ---
 
 ## Overview
-This project applies supervised machine learning techniques to the **Adult Census Income** dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/2/adult).  
+This project applies supervised machine learning techniques to the **Adult Census Income** dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu).  
 Our goal is to predict whether an individual's annual income exceeds **$50,000 USD** based on demographic and employment features such as **age, education, occupation, and hours worked per week**.
 
 The project includes:
