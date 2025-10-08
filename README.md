@@ -72,6 +72,6 @@ We trained and compared several machine learning classifiers using **80% trainin
 ---
 
 ## Results Summary
-The **Random Forest Classifier** achieved the best test performance with an error rate of **14.16%**, closely followed by **Logistic Regression Model(14.62%)**.  
+The **Random Forest Classifier** achieved the best test performance with an error rate of **14.16%**, closely followed by **Logistic Regression Model (14.62%)**.  
 
 ---
