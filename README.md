@@ -1,9 +1,9 @@
-# 🧠 ML-Adult-Census-Income-Analysis
+# ML-Adult-Census-Income-Analysis
 **Predicting whether an individual's annual income exceeds $50K using UCI’s Adult Census dataset**
 
 ---
 
-## 📘 Overview
+## Overview
 This project applies supervised machine learning techniques to the **Adult Census Income** dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/2/adult).  
 Our goal is to predict whether an individual's annual income exceeds **$50,000 USD** based on demographic and employment features such as **age, education, occupation, and hours worked per week**.
 
@@ -14,14 +14,14 @@ The project includes:
 
 ---
 
-## 👥 Contributors
+## Contributors
 - **Kienlac Mai**  
 - **Gary Zeng**  
 - **Jacky Cheng**
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source:** [UCI Machine Learning Repository – Adult Dataset](https://archive.ics.uci.edu/dataset/2/adult)  
 - **Instances:** 48,842  
 - **Features:** 14 (both categorical and continuous)  
@@ -31,7 +31,7 @@ The dataset represents 1994 U.S. Census data. It contains mild class imbalance �
 
 ---
 
-## 🔍 Initial Analysis
+## Initial Analysis
 Exploratory visualizations revealed key relationships:
 - **Age:** Individuals aged **40–50** were most likely to earn >$50K.  
 - **Education:** Higher education strongly correlated with income above $50K.  
@@ -40,7 +40,7 @@ Exploratory visualizations revealed key relationships:
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 We trained and compared several machine learning classifiers using **80% training / 20% testing splits**, tuning hyperparameters to balance bias and variance.
 
 | Model | Key Parameters | Training Error | Test Error | Accuracy |
@@ -54,7 +54,7 @@ We trained and compared several machine learning classifiers using **80% trainin
 
 ---
 
-## 🧩 Key Insights
+## Key Insights
 - **Random Forest** achieved the lowest test error and best generalization, confirming its robustness against overfitting.  
 - **Logistic Regression** provided interpretable results with similar performance, highlighting influential features such as **marital status, capital gain, and native country**.  
 - **Gaussian Naive Bayes** performed well but slightly under the ensemble methods due to mixed data types.  
@@ -62,7 +62,7 @@ We trained and compared several machine learning classifiers using **80% trainin
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 - **Python**  
 - **Pandas**, **NumPy** — data manipulation  
 - **Matplotlib**, **Seaborn** — visualization  
@@ -71,7 +71,7 @@ We trained and compared several machine learning classifiers using **80% trainin
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 The **Random Forest Classifier** achieved the best test performance with an error rate of **14.16%**, closely followed by **Logistic Regression (14.62%)**.  
 Both models demonstrated strong predictive power and generalization on unseen data:contentReference[oaicite:3]{index=3}.
 
