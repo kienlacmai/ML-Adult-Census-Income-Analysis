@@ -76,6 +76,3 @@ The **Random Forest Classifier** achieved the best test performance with an erro
 Both models demonstrated strong predictive power and generalization on unseen data:contentReference[oaicite:3]{index=3}.
 
 ---
-
-   git clone https://github.com/kienlacmai/ML-Adult-Census-Income-Analysis.git
-   cd ML-Adult-Census-Income-Analysis
